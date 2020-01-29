@@ -4,6 +4,9 @@ import Index from './pages/index'
 
 import counterStore from './store/counter'
 
+// app.js
+import 'taro-ui/dist/style/index.scss' // 全局引入一次即可
+
 import './app.scss'
 
 // 如果需要在 h5 环境中开启 React Devtools
@@ -25,7 +28,7 @@ class App extends Component {
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
-      navigationBarTitleText: 'WeChat',
+      navigationBarTitleText: '开发程序配置',
       navigationBarTextStyle: 'black'
     }
   }
